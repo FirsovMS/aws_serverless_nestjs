@@ -2,6 +2,23 @@
 ## Here is a small pet project to create serveless web app
 Tech: nestjs, graphql, aws lambda, docker with postgres container, terraform
 
+## Environment
+You might need to create .env file in `app` folder with special parameters like this:
+
+``POSTGRES_HOST=127.0.0.1``
+
+``POSTGRES_PORT=5432``
+
+``POSTGRES_USER=postgres``
+
+``POSTGRES_PASSWORD=example``
+
+``POSTGRES_DATABASE=nest``
+
+``MAPBOX_TOKEN=<your mapbox token here>``
+
+``SERVER_PORT=3001``
+
 ## How to run it?
 1) Clone repository and open command prompt inside base directory.
 2) Run `docker compose up`. That will create a container runned app with postgress db inside.
